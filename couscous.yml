@@ -1,0 +1,27 @@
+template:
+    url: https://github.com/LaunchCodeEducation/Template-Light
+# Base URL of the published website
+baseUrl: http://education.launchcode.org/skills-front-end
+
+
+# Used to link to the GitHub project
+github:
+    user: LaunchCodeEducation
+    repo: skills-front-end
+
+title: LaunchCode Front-end Web
+
+# The left menu bar
+menu:
+    items:
+        schedule:
+            text: Schedule
+            relativeUrl: schedule/
+        vocareum:
+            text: Submit Your Work
+            absoluteUrl: https://labs.vocareum.com/home/login.php
+            attributes: target="_blank"
+        piazza:
+            text: Discussion Forum
+            absoluteUrl: http://piazza.com/
+            attributes: target="_blank"
